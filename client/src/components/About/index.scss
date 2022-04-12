@@ -1,0 +1,30 @@
+@import "../../App.scss";
+
+.stage-cube-cont {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  padding-top: 18%;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+
+.tagcloud {
+  margin-left: calc(60% - 100px);
+  top : 25%;
+
+  div {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0px lightyellow;
+    color: $primary-color;
+  }
+}
